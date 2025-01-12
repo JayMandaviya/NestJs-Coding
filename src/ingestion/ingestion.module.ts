@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
-import { IngestionController } from './ingestion.controller';
 import { IngestionService } from './ingestion.service';
+import { IngestionController } from './ingestion.controller';
 
 @Module({
   controllers: [IngestionController],
-  providers: [IngestionService]
+  providers: [IngestionService],
 })
 export class IngestionModule {}
