@@ -49,8 +49,4 @@ Metadata storage and role-based document retrieval.
 
 API to trigger ingestion processes.
 
-Real-time ingestion via webhook.
 
-5. Ingestion Management Module
-
-Monitor ingestion status and retrieve logs/results.
